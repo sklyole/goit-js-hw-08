@@ -1,0 +1,30 @@
+.gallery-section {
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
+}
+
+.gallery-item {
+  max-width: calc((100% - 96px) / 3);
+}
